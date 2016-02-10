@@ -18,11 +18,16 @@ h2 {
 }
 
 h3 {
-  font-size: 2em;
+  padding-bottom: .5em;
+  font-size: 1.75em;
   color: cornflowerblue;
 }
 
 p {
   padding: 1em;
   color: gray;
+}
+
+p.default {
+  display:none;
 }
