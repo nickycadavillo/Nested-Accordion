@@ -23,9 +23,8 @@ h3 {
   color: cornflowerblue;
 }
 
-p {
-  padding: 1em;
-  color: gray;
+p.show {
+  /*display: none;*/
 }
 
 p.default {
