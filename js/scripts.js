@@ -2,8 +2,16 @@
 $(function () {
   'use strict';
 
+$('h2').click(function(){
+  // alert("clicked");
+  $('.default').toggle('.show-p');
+});
 
 
+$('h3').click(function(){
+  // alert("clicked");
+  $('.default').toggle('.show-p');
+});
 
 
 

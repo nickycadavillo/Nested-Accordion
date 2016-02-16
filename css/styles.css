@@ -1,6 +1,7 @@
 html {
   font-size: 1em;
   font-family: 'Lato', sans-serif;
+  color: #C0C0C0;
 
 }
 
@@ -12,21 +13,34 @@ div.container {
 
 h2 {
   padding-bottom: .5em;
-  border-bottom: solid gray 1px;
+  border-bottom: solid #DCDCDC 1px;
   font-size: 2.5em;
-  color: cornflowerblue;
+  font-weight: 300;
+  color: #47a3da;
+
 }
 
-h3 {
+h3.heading-small {
+  display: none;
   padding-bottom: .5em;
   font-size: 1.75em;
-  color: cornflowerblue;
+  color: #47a3da;
 }
 
-p.show {
-  /*display: none;*/
+h3.show-h3 {
+  
 }
 
 p.default {
+  font-weight: 300;
   display:none;
+}
+
+p.show-p{
+  font-weight: 300;
+  color: #DCDCDC;
+}
+
+i {
+  color: #DCDCDC;
 }
