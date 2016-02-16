@@ -4,7 +4,10 @@ $(function () {
 
 $('h2').click(function(){
   // alert("clicked");
-  $('.default').toggle('.show-p');
+  // event.stopPropagation(); //thought i could stop it from bubbling to the other elements but no: http://api.jquery.com/event.stopPropagation/
+  $('.default').siblings().next().toggle('.show-p');
+  // $('.default').toggle('.show-p');
+  // $('.default').not().hide();
 });
 
 
