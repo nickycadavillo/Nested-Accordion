@@ -1,29 +1,26 @@
-
 $(function () {
   'use strict';
 
 $('h2').click(function(){
-  // alert("clicked");
-  // event.stopPropagation(); //thought i could stop it from bubbling to the other elements but no: http://api.jquery.com/event.stopPropagation/
-  $('.default').siblings().next().toggle('.show-p');
+  // alert("clicked"); // checking if targeting right element
+  // $('.default').siblings().next().toggle('.show-p'); // opens ALL big accordions
   // $('.default').toggle('.show-p');
   // $('.default').not().hide();
+  $(this).siblings().next().toggle('.show-p');
+
 });
 
 
 $('h3').click(function(){
   // alert("clicked");
-  $('.default').toggle('.show-p');
+  // $('.default').toggle('.show-p');
+  $(this).siblings().next().toggle('.show-p');
 });
 
 
 
 
 });
-
-
-
-
 
 
 // START JavaScript EXAMPLE //
