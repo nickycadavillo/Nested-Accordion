@@ -24,39 +24,20 @@ h2 {
 h3.heading-small {
   display: none;
   padding-bottom: .5em;
-  font-size: 1.75em;
+  padding-left: 3em;
+  font-size: 1.2em;
+  font-weight: 400;
   color: #47a3da;
+  text-transform: uppercase;
+  letter-spacing: .2em;
 }
 
 h3.show-h3 {
 
 }
 
+
 p.default-one {
-  font-weight: 300;
-  padding-bottom: 1em;
-  display:none;
-}
-
-p.default-two {
-  font-weight: 300;
-  padding-bottom: 1em;
-  display:none;
-}
-
-p.default-three {
-  font-weight: 300;
-  padding-bottom: 1em;
-  display:none;
-}
-
-p.default-four {
-  font-weight: 300;
-  padding-bottom: 1em;
-  display:none;
-}
-
-p.default-five {
   font-weight: 300;
   padding-bottom: 1em;
   display:none;
@@ -70,6 +51,7 @@ p.show-p{
 p.default-small {
   font-weight: 300;
   display:none;
+  padding-left: 3em;
 }
 
 i {
